@@ -12,6 +12,10 @@ if (a > max )
 max2 = max;
 max = a;
 }
+else if ( a > max2 && a <max)
+{
+    max2 = a;
+}
 }
 Console.WriteLine ($"end");
 
