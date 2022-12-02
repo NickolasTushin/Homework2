@@ -1,7 +1,9 @@
 ﻿Console.Clear();
 
 Console.WriteLine("Введите трехзначное число: ");
+
 int x = Convert.ToInt32(Console.ReadLine());
+
 if (x >= 100 && x <= 999)
     { 
     int x2 = x / 100;
